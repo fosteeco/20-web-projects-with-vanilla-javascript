@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Lyrics Search</title>
+  </head>
+  <body>
+    <header>
+      <h1>Lyrics Search</h1>
+      <form id="form">
+        <input
+          type="text"
+          id="search"
+          placeholder="Enter artist or song name"
+        />
+        <button>Search</button>
+      </form>
+    </header>
+    <div id="result" class="container">
+      <p>Results will be displayed here</p>
+      <ul class="songs">
+    
+      <li>
+        <span><strong>Smokepurpp &amp; Murda Beatz</strong> - 123</span>
+        <button class="btn" data-artist="Smokepurpp &amp; Murda Beatz" data-songtitle="123" data-apipath="/songs/3533081 ">Get Lyrics</button> 
+      </li>
+      <li>
+        <span><strong>Vice</strong> - Steady 1234 (Ft.&nbsp;Jasmine&nbsp;Thompson &amp; Skizzy&nbsp;Mars)</span>
+        <button class="btn" data-artist="Vice" data-songtitle="Steady 1234 (Ft.&nbsp;Jasmine&nbsp;Thompson &amp; Skizzy&nbsp;Mars)" data-apipath="/songs/2870491 ">Get Lyrics</button> 
+      </li>
+      <li>
+        <span><strong>Feist</strong> - 1234</span>
+        <button class="btn" data-artist="Feist" data-songtitle="1234" data-apipath="/songs/218061 ">Get Lyrics</button> 
+      </li>
+      <li>
+        <span><strong>DaBaby</strong> - DaBaby Freestyles on Flex | Freestyle #123</span>
+        <button class="btn" data-artist="DaBaby" data-songtitle="DaBaby Freestyles on Flex | Freestyle #123" data-apipath="/songs/4590545 ">Get Lyrics</button> 
+      </li>
+      <li>
+        <span><strong>​girlpool</strong> - 123</span>
+        <button class="btn" data-artist="​girlpool" data-songtitle="123" data-apipath="/songs/3023270 ">Get Lyrics</button> 
+      </li>
+      <li>
+        <span><strong>Fitz and The Tantrums</strong> - 123456</span>
+        <button class="btn" data-artist="Fitz and The Tantrums" data-songtitle="123456" data-apipath="/songs/4407559 ">Get Lyrics</button> 
+      </li>
+      <li>
+        <span><strong>Alkaline</strong> - 123</span>
+        <button class="btn" data-artist="Alkaline" data-songtitle="123" data-apipath="/songs/1946886 ">Get Lyrics</button> 
+      </li>
+      <li>
+        <span><strong>Brzo Trči Ljanmi</strong> - 1234</span>
+        <button class="btn" data-artist="Brzo Trči Ljanmi" data-songtitle="1234" data-apipath="/songs/4506724 ">Get Lyrics</button> 
+      </li>
+      <li>
+        <span><strong>Khai Bahar</strong> - #123</span>
+        <button class="btn" data-artist="Khai Bahar" data-songtitle="#123" data-apipath="/songs/4025834 ">Get Lyrics</button> 
+      </li>
+      <li>
+        <span><strong>Kirk Franklin</strong> - 123 Victory (Remix) (Ft.&nbsp;Pharrell&nbsp;Williams)</span>
+        <button class="btn" data-artist="Kirk Franklin" data-songtitle="123 Victory (Remix) (Ft.&nbsp;Pharrell&nbsp;Williams)" data-apipath="/songs/2840982 ">Get Lyrics</button> 
+      </li>
+  </ul>
+  <div id='rg_embed_link_3533081' class='rg_embed_link' data-song-id='3533081'>Read <a href='https://genius.com/Smokepurpp-and-murda-beatz-123-lyrics'>“123” by Smokepurpp & Murda Beatz</a> on Genius</div>
+  <script crossorigin src='//genius.com/songs/3533081/embed.js'></script>
+    <div id="more" class="container centered"></div>
+  </body>
+</html>
