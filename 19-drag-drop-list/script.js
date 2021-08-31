@@ -4,15 +4,15 @@ const draggable_list = document.querySelector("#draggable-list"),
 
 const richestPeople = [
   "Jeff Bezos",
-  "Bill Gates",
-  "Warren Buffett",
+  "Elon Musk",
   "Bernard Arnault",
-  "Carlos Slim Helu",
-  "Amancio Ortega",
-  "Larry Ellison",
+  "Bill Gates",
   "Mark Zuckerberg",
-  "Michael Bloomberg",
+  "Warren Buffett",
+  "Larry Ellison",
   "Larry Page",
+  "Sergey Brin",
+  "Mukesh Ambani",
 ];
 
 // Store listitems
